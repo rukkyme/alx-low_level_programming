@@ -1,1 +1,1 @@
-C - Debuggin
+c - debugging readme
