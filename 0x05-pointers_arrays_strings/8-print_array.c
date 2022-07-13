@@ -5,9 +5,8 @@
  * print_array - print n elements of an array of integers
  * @a: pointer to an array
  * @n: number of the array of element
- * Description: Numbers must be separated by comma and space.
- * Numbers should be displayed in the way they are stored in array.
- * You can only use _putchar to print.
+ *
+ * Return: void.
  */
 
 void print_array(int *a, int n)
