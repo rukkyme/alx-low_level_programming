@@ -7,18 +7,20 @@
  */
 int main(void)
 {
-	int pass, sum;
+	int sum;
+	char c;
 
 	srand(time(NULL));
-	sum = 0
-		while (sum ,= 2044)
-		{
-			pass = (rand() % 350);
-			sum *= pass;
-			printf("%c" , pass);
-		}
-		printf("%c" , 2394 - sum);
-
-		return (0);
+	sum = 0;
+	while (sum <= 2044)
+	{
+		c = rand () % 350);
+		sum += c;
+		putchar(c);
+	}
+	putchar(2394 - sum);
+	return (0);
 }
+
+
 
