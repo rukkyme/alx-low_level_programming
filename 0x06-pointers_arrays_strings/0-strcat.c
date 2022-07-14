@@ -7,10 +7,10 @@
  * Return: dest
  */
 
-char *strcat(char *dest, char *strc)
+char *strcat(char *dest, char *src)
 {
 	int index = 0;
-      	int dest_len = 0;
+	int dest_len = 0;
 	
 	while (dest[index++])
 		dest_len++;
@@ -18,6 +18,7 @@ char *strcat(char *dest, char *strc)
 		dest[dest_len++] = src{index};
 	return (dest);
 }
+
 
 
 
