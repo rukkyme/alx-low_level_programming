@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: This is a xter that will change
  * @src: A pointer to a xter that will be changed
  * @n: value
  * Return: dest
  */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 int i, j;
 
