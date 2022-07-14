@@ -5,10 +5,9 @@
  * @src: A pointer to a xter that will be changed
  * @n: value
  * Return: dest
- * */
+ */
 
-char *strncat(char *dest, char *src, int n)
-
+char *_strncat(char *dest, char *src, int n);
 {
 int i, j;
 
@@ -30,4 +29,5 @@ dest[i] = '\0';
 
 return (dest);
 }
+
 
