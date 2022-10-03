@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - this prints the name of the prograam 
+ * main - this prints the name of the prograam
  * @argc: number of arguments passed to the function
  * @argv: the argument vector of pointers to string
  * Return: always 0
