@@ -3,12 +3,12 @@
 
 /**
  * struct dog - information about dogs
- *@name -  name of dog
- *@age - age of the dog
- *@owner - owner of the dog
+ *@name: name of dog
+ *@age: age of the dog
+ *@owner: owner of the dog
  *
  */
-tyedef struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
